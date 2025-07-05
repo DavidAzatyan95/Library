@@ -4,7 +4,6 @@ import com.example.springcourse.AuthorsAndBooks.dto.StatisticsRedis;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Repository;
 import java.util.Optional;
-import java.util.concurrent.TimeUnit;
 
 @Repository
 public class StatisticsRedisManualRepository {
